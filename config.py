@@ -25,14 +25,14 @@ TRANSLATED_LABELS_PATH = 'labels/V2.1'
 SAMPLE_RATE = 48000 
 
 # We're using 3-second chunks
-SIG_LENGTH = 3.0 
+SIG_LENGTH = 5.0
 
 # Define overlap between consecutive chunks <3.0; 0 = no overlap
 SIG_OVERLAP = 0 
 
 # Define minimum length of audio chunk for prediction, 
 # chunks shorter than 3 seconds will be padded with noise
-SIG_MINLEN = 3.0 
+SIG_MINLEN = 5.0
 
 #####################
 # Metadata settings #
